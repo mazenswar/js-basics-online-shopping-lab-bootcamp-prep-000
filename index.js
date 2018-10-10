@@ -53,7 +53,6 @@ function removeFromCart(item) {
       cart.splice(cart.indexOf(i), 1);
       return cart;
     }
-    
   });
 
 }
