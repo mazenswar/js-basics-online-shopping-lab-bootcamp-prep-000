@@ -48,13 +48,16 @@ function total() {
 }
 
 function removeFromCart(item) {
-  cart.forEach(i => {
+  let check = cart.forEach(i => {
     if(i.itemName === item) {
       cart.splice(cart.indexOf(i), 1);
       return cart;
     }
   });
-
+  
+  if (!check)
+  
+  
 }
 
 
