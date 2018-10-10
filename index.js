@@ -55,7 +55,9 @@ function removeFromCart(item) {
     }
   });
   
-  if (!check)
+  if (!check) {
+    return 
+  }
   
   
 }
